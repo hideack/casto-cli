@@ -1,0 +1,14 @@
+#!/usr/bin/env node
+
+var program = require('commander');
+var core = require('../lib/core');
+
+var main = function() {
+  program
+    .version(require('../package.json').version)
+    .parse(process.argv);
+
+  core.start(program);
+}
+
+main();
