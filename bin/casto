@@ -8,7 +8,8 @@ var main = function() {
     .version(require('../package.json').version)
     .parse(process.argv);
 
-  core.start(program);
+  fileName = program.args[0];
+  core.start(fileName, program);
 }
 
 main();
