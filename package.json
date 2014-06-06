@@ -1,7 +1,7 @@
 {
   "name": "casto",
   "version": "0.0.1",
-  "description": "Casto command line interface tool.",
+  "description": "Casto(http://ca.storyboards.jp/ ) command line interface tool.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,6 +11,7 @@
     "url": "git://github.com/hideack/casto-cli.git"
   },
   "keywords": [
+    "live coding",
     "casto",
     "cli",
     "tool"
