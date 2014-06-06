@@ -6,7 +6,14 @@ var core = require('../lib/core');
 var main = function() {
   program
     .version(require('../package.json').version)
+    .usage('[options] <file ...>')
+    .option('-p, --port [port]', 'Port number. (default: 9992)', 9992)
     .parse(process.argv);
+
+  if (program.args.length == 0) {
+    program.help();
+    process.exit(0);
+  }
 
   fileName = program.args[0];
   core.start(fileName, program);
