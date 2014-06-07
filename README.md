@@ -5,6 +5,7 @@ Casto(http://ca.storyboards.jp/ ) cli tool.
 
 Live coding in browse, using text editor.
 
+![](http://f.st-hatena.com/images/fotolife/h/hideack/20140607/20140607160159.gif?1402124905)
 
 ### Installation
 
