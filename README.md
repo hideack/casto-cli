@@ -22,5 +22,7 @@ $ casto
 
     -h, --help         output usage information
     -V, --version      output the version number
+    -b, --browse       automatically opens a browser
     -p, --port [port]  Port number. (default: 9992)
 ```
+
