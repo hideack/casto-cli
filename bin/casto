@@ -12,12 +12,20 @@ var main = function() {
     .option('-s, --stdin',  'STDIN are passed to Casto.') 
     .parse(process.argv);
 
-  if (!program.stdin && program.args.length == 0) {
-    program.help();
-    process.exit(0);
+
+  var fileName = "";
+
+  if (program.stdin) {
+    fileName = "STDIN";
+  } else {
+    if (!program.stdin && program.args.length == 0) {
+      program.help();
+      process.exit(0);
+    }
+
+    fileName = program.args[0];
   }
 
-  fileName = program.args[0];
   core.start(fileName, program);
 }
 
