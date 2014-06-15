@@ -1,6 +1,6 @@
 {
   "name": "casto",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Casto(http://ca.storyboards.jp/ ) command line interface tool.",
   "main": "index.js",
   "scripts": {
