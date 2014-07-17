@@ -27,4 +27,4 @@ $ casto
     -p, --port [port]  Port number. (default: 9992)
 ```
 
-[![NPM](https://nodei.co/npm/yo-tokyorain.png?compact=true)](https://nodei.co/npm/yo-tokyorain/)
+[![NPM](https://nodei.co/npm/yo-tokyorain.png?compact=true)](https://nodei.co/npm/casto/)
