@@ -1,6 +1,8 @@
 Casto cli tool
 ================
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/hideack/casto-cli.svg)](https://greenkeeper.io/)
+
 Casto(http://ca.storyboards.jp/ ) cli tool.
 
 Live coding in browse, using text editor.
