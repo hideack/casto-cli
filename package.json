@@ -26,10 +26,10 @@
   },
   "homepage": "https://github.com/hideack/casto-cli",
   "dependencies": {
-    "commander": "~2.2.0",
-    "request": "~2.36.0",
-    "step": "0.0.5",
-    "colors": "~0.6.2",
+    "commander": "~2.9.0",
+    "request": "~2.81.0",
+    "step": "1.0.0",
+    "colors": "~1.1.2",
     "open": "~0.0.5"
   }
 }
